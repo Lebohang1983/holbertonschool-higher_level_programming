@@ -1,11 +1,8 @@
 #!/usr/bin/python3
 
 def islower(c):
-    if ord('a') <= ord(c) <= ord('z'):
-        return True
-    else:
+    char = ord(c)
+    for i in range (97, 123):
+        if char == i:
+            return True
         return False
-
-print(islower('a'))
-print(islower('Z'))
-print(islower('m'))
