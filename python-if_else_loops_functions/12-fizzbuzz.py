@@ -1,11 +1,9 @@
 #!/usr/bin/python3
 
-for range(1, 101):
-    if {} % 3 == 0
-        print("Fizz")
-    if {} % 5 == 0
-        print("Buzz")
-    elif {} % 3 == 0 && {} % 5 == 0
-        print("FizzBuzz") 
-    else
-        print("{}{}" end= " ")
+for i in range(1, 101):
+    if i % 3 == 0 and i % 5 == 0:
+        print("FizzBuzz", end=" ")
+    elif i % 3 == 0:
+        print("Fizz", end=" ")
+    elif i % 5 == 0:
+        print("Buzz", end=" ")
