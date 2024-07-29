@@ -1,9 +1,10 @@
 #!/usr/bin/python3
-
-if __name__ == "__main__":
+import sys
 def add_all(*args):
     return sum(args)
-    number = len(sys.argv) - 1
-    if number = int():
-        result = add_all(number)
-        print(result)
+
+if __name__ == "__main__":
+
+    numbers = map(int, sys.argv[1:])
+    result = add_all(*numbers)
+    print(result)
